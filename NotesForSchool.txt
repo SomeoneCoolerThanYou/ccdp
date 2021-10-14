@@ -1,0 +1,9 @@
+sorted(tuple)
+reversed(tuple)
+min(tuple)
+max(tuple)
+sum(tuple)
+'str'.find('a') --> -1
+'str'.index('a') -> ERROR
+del List[:] #deletes everything
+Downloads/string without output.pdf

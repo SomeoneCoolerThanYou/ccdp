@@ -1,0 +1,28 @@
+>>> def palindrome(num):
+...     for i in str(num):
+...             list.append(i)
+...     list.reverse()
+...     a = ''
+...     for i in list:
+...             a = a + i
+...     if int(num) == int(a):
+...             print("Yes")
+...     else:
+...             print("No")
+...
+>>> list = []
+>>> palindrome(12321)
+Yes
+>>> list
+['1', '2', '3', '2', '1']
+>>> 'abcd'[1]
+'b'
+>>> 'abcd'[::1]
+'abcd'
+>>> 'abcd'[::2]
+'ac'
+>>> 'abcd'[::-1]
+'dcba'
+>>> palin = lambda x: x == int(str(x)[::-1])
+>>> palin(12345654321)
+True
